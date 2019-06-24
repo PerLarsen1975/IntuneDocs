@@ -76,12 +76,13 @@ Depending on the carrier used by the devices, not all details might be collected
 |Name|The name of the device.|Windows, iOS|
 |Management name|The device name used only in the console. Changing this name won't change the name on the device.|Windows, iOS|
 |UDID|The device's Unique Device identifier.|Windows, iOS|
-|Intune Device ID|A GUID that uniquely identifies the device.|Windows, iOS|
-|Serial number|The device's serial number from the manufacturer.|Windows, iOS|
-|Shared device|If **Yes**, the device is shared by more than one user.|Windows, iOS|
+|Intune Device ID|A GUID that uniquely identifies the device in Intune.|Windows, iOS, Android|
+|Azure AD Device ID|A GUID that uniquely identifies the device in Azure AD.|Windows, iOS, Android|
+|Serial number|The device's serial number from the manufacturer.|Windows, iOS, Android|
+|Shared device|If **Yes**, the device is shared by more than one user.|Windows, iOS, Android|
 |User approved enrollment|If **Yes**, then the device has user approved enrollment which lets admins manage certain security settings on the device.|Windows, iOS|
-|Operating system|The operating system used on the device.|Windows, iOS|
-|Operating system version|The version of the operating system on the device.|Windows, iOS|
+|Operating system|The operating system used on the device.|Windows, iOS, Android|
+|Operating system version|The version of the operating system on the device.|Windows, iOS, Android|
 |Operating system language|The language set for the operating system on the device.|Windows, iOS|
 |Total storage space|The total storage space on the device (in gigabytes).|Windows, iOS|
 |Free storage space|The unused storage space on the device (in gigabytes).|Windows, iOS|
